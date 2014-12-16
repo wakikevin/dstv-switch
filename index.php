@@ -23,7 +23,7 @@
         <div class="campaign-logo"> <img src="images/campaign-logo.png" alt=""> </div>
 
         <div class="dstv-logo"><img src="images/dstv-logo.png" alt=""></div>
-        
+
         <div class="body-bg"></div>
         
         <div class="content-main">
@@ -78,6 +78,10 @@
                 </div>
             </div>
 
+        </div>
+
+        <div class="footer">
+            &copy; 2014 MultiChoice (PTY) LTD. All rights reserved.
         </div>
 
       

@@ -382,3 +382,13 @@
 	font-size: 13px;
 	text-align: center;
 }
+.footer{
+	position: relative;
+	z-index: 9;
+	background:#e2e2e5;
+	width: 100%;
+	padding: 20px;
+	font-size: 0.8em;
+	text-align: center;
+	display:none;
+}
