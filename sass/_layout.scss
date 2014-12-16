@@ -392,3 +392,14 @@
 	text-align: center;
 	display:none;
 }
+.success {
+	background: url("../images/success.png") no-repeat top center;
+	padding-top: 54px;
+	text-align: center;
+	float: left;
+	width: 100%;
+	margin: 40px 0;
+	color:$white;
+	font-family:$font-max-black;
+	font-size:1.4em;
+}

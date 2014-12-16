@@ -19,7 +19,7 @@
 	}
 	.dstv-logo{
 		img{
-			max-width: 200px;
+			max-width: 150px;
 		}
 	}
 	.counter-box {
@@ -37,11 +37,38 @@
 	}
 	.banner {
 		margin-bottom: 100px;
-		img{
-			max-width: 560px;
+		img {
+			max-width: 500px;
 		}
 	}
-
+	.counter-box h3{
+		margin-bottom: 30px;
+	}
+	.flip-clock-wrapper{
+		margin-bottom: 0px;
+	}
+	.disclaimer{
+		bottom: 20px;
+	}
+	.flip-clock-wrapper ul{
+		width: 45px;
+		height: 65px;
+	}
+	.flip-clock-wrapper ul li a div div.inn{
+		line-height: 66px;
+	}
+	.flip-clock-divider .flip-clock-label{
+		right: -72px;
+	}
+	.flip-clock-dot.bottom {
+		bottom: 25px;
+	}
+	.flip-clock-dot.top {
+		top: 22px;
+	}
+	.flip-clock-divider{
+		height: 80px;
+	}
 }//Max width 1133
 
 @media only screen and (max-width: 1280px){
@@ -166,6 +193,14 @@
 	}
 	.flip-clock-wrapper{
 		max-width: 420px;
+	}
+	.right-wing{
+		.vertical-align{
+			display: block;
+		}
+		.wrap {
+			max-width: none;
+		}
 	}
 
 }//max width 960

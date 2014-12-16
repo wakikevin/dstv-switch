@@ -3135,6 +3135,18 @@ a:active {
   display: none;
 }
 
+.success {
+  background: url("../images/success.png") no-repeat top center;
+  padding-top: 54px;
+  text-align: center;
+  float: left;
+  width: 100%;
+  margin: 40px 0;
+  color: white;
+  font-family: "maxtf-blackregular", Helvetica, sans-serif;
+  font-size: 1.4em;
+}
+
 /* Get the bourbon mixin from http://bourbon.io */
 /* Reset */
 .flip-clock-wrapper * {
@@ -3662,7 +3674,7 @@ a:active {
 }
 @media only screen and (max-width: 1366px) {
   .dstv-logo img {
-    max-width: 200px;
+    max-width: 150px;
   }
 
   .counter-box {
@@ -3685,7 +3697,44 @@ a:active {
     margin-bottom: 100px;
   }
   .banner img {
-    max-width: 560px;
+    max-width: 500px;
+  }
+
+  .counter-box h3 {
+    margin-bottom: 30px;
+  }
+
+  .flip-clock-wrapper {
+    margin-bottom: 0px;
+  }
+
+  .disclaimer {
+    bottom: 20px;
+  }
+
+  .flip-clock-wrapper ul {
+    width: 45px;
+    height: 65px;
+  }
+
+  .flip-clock-wrapper ul li a div div.inn {
+    line-height: 66px;
+  }
+
+  .flip-clock-divider .flip-clock-label {
+    right: -72px;
+  }
+
+  .flip-clock-dot.bottom {
+    bottom: 25px;
+  }
+
+  .flip-clock-dot.top {
+    top: 22px;
+  }
+
+  .flip-clock-divider {
+    height: 80px;
   }
 }
 @media only screen and (max-width: 1280px) {
@@ -3824,6 +3873,13 @@ a:active {
 
   .flip-clock-wrapper {
     max-width: 420px;
+  }
+
+  .right-wing .vertical-align {
+    display: block;
+  }
+  .right-wing .wrap {
+    max-width: none;
   }
 }
 @media only screen and (max-width: 768px) {
